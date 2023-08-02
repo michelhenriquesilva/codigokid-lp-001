@@ -1,0 +1,138 @@
+.custom-shape-divider-bottom-1690302680 {
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1690302680 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  
+}
+
+.custom-shape-divider-bottom-1690302680 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  z-index: 99;
+  padding-top: 600px;
+  padding-bottom: 100px;
+}
+
+
+.circle-orange {
+  display: flex;
+  position: absolute;
+  top: 110%;
+  z-index: 99;
+  left: -13em;
+}
+
+.photo1 {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 105%;
+  left: 20%;
+}
+.photo2 {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 121.5%;
+  left: 11.7%;
+}
+.photo3 {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 128%;
+  left: 25%;
+}
+.photo4 {
+  z-index: 99;
+  display: flex;
+  position: absolute;
+  top: 144.5%;
+  left: 16.8%;
+}
+
+.box-right {
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45%;
+  margin-top: -22%;
+}
+
+.titulo-sec2 {
+ 
+  font-size: 38px;
+  font-family: 'Poppins bold';
+  
+}
+
+.box-right p {
+ 
+  font-size: 14px;
+  font-family: 'Poppins';
+  padding-left: 20px;
+  padding-top: 17px;
+}
+
+.circles-container {
+  z-index: 99;
+  display: flex;
+  padding-top: 20px;
+  margin-left: -37%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 8em;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  
+}
+.row a {
+  font-family: 'Poppins bold';
+  font-size: 12px;  
+  
+}
+.circle-pequeno {
+  width: 20px;
+  height: 20px;
+  background-color: #ED6325;
+  border-radius: 50%;
+  
+  margin-left: 50px;
+}
+
+.button-matricula {
+  font-family: 'Poppins bold';
+  font-size: 16px;
+  padding: 17px 30px;
+  background-color: #ED6325;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 12px;
+  bottom: -58%;
+  
+}
+
+

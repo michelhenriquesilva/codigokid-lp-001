@@ -1,0 +1,13 @@
+.buttonn {
+  font-family: "Poppins bold";
+  font-size: 16px;
+  padding: 17px 30px;
+  background-color: #ed6325;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  border-radius: 12px;
+
+}

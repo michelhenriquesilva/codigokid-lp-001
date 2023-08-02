@@ -1,0 +1,56 @@
+.fundo {
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  background: transparent; 
+  position: relative;
+  text-align: center;
+  z-index: 2;
+  
+}
+
+.logo {
+  z-index: 2;
+  margin-top: 1%;
+  margin-left: 6%;
+}
+
+.links {
+  z-index: 2;
+  margin-top: 2%;
+  font-family: 'Poppins bold';
+  padding-left: 20%;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.a {
+  margin-right: 70px;
+  
+}
+
+.button {
+  z-index: 2;
+  margin-top: 1.5%;
+  font-family: 'Poppins bold';
+  font-size: 14px;
+  padding: 10px 30px;
+  background-color: #ED6325;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20em;
+  border-radius: 12px;
+}
+
+
+
+

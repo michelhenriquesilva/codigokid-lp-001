@@ -1,0 +1,188 @@
+
+.sec-skills {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: #FFB248;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle1 {
+  position: absolute;
+  width: 107px;
+  height: 107px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: -3%;
+  z-index: 99;
+}
+.circle2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: -2.5%;
+  z-index: 99;
+}
+.circle3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 7.5%;
+  margin-top: -5.5%;
+  z-index: 99;
+}
+.circle4 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: -2%;
+  z-index: 97;
+}
+.circle5 {
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 32%;
+  margin-top: -3.5%;
+  z-index: 97;
+}
+.circle6 {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-top: -2.5%;
+  z-index: 97;
+}
+.circle7 {
+  position: absolute;
+  width: 230px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 46%;
+  margin-top: -0.7%;
+  z-index: 97;
+}
+.circle8 {
+  position: absolute;
+  width: 280px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 52%;
+  margin-top: -2.8%;
+  z-index: 97;
+}
+.circle9 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 63%;
+  margin-top: -2.8%;
+  z-index: 97;
+}
+.circle10 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 70%;
+  margin-top: -4%;
+  z-index: 97;
+}
+.circle11 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 77%;
+  margin-top: -6%;
+  z-index: 97;
+}
+.circle12 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 83%;
+  margin-top: -6%;
+  z-index: 97;
+}
+.circle13 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 91%;
+  margin-top: -9%;
+  z-index: 97;
+}
+
+
+.title-skills {
+  z-index: 99;
+  padding-top: 12%;
+  padding-left: 20%;
+  display: flex;
+  font-family: 'Poppins bold';
+  font-size: 25px;
+}
+
+.span-white{
+  z-index: 99;
+  color: #fff;
+}
+
+.circle-title {
+  position: absolute;
+  width: 107px;
+  height: 107px;
+  background-color: #ED6325;
+  border-radius: 50%;
+  margin-left: 19.1%;
+  margin-top: 10%;
+  z-index: 0;
+}
+
+.cardscontainer {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 247px;
+  height: 221px;
+  background-color: white; 
+  border: 1px solid #ccc; 
+  border-radius: 12px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card p {
+  font-family: 'Poppins bold';
+}

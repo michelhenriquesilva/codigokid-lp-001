@@ -1,0 +1,114 @@
+/* style.css */
+.copySection__swiper {
+ 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.swiper__container {
+  position: relative;
+}
+
+.swiper__content {
+  background-color: #f0f0f0;
+  padding: 45px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  position: relative;
+  padding-bottom: 15px;
+  
+}
+
+.swiper_box_description {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: #666;
+  line-height: 1.6;
+}
+.cliente__imagem {
+  background-color: #d9d9d9;
+  width: 67px; /* Ajuste o tamanho da imagem do cliente */
+  height: 67px; /* Ajuste o tamanho da imagem do cliente */
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px; /* Ajuste o espaçamento entre a imagem e o texto */
+}
+
+.container-row-card {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5em;
+  
+}
+
+.row1 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 10px;
+}
+
+.stars {
+  display: flex;
+  padding-left: 40px;
+}
+
+.name-client {
+  font-size: 18px;
+  font-family: 'Poppins bold';
+  color: #000000;
+  margin-right: 10px; /* Ajuste o espaçamento entre o nome do cliente e do filho */
+  white-space: nowrap; /* Evita que o texto quebre linha */
+}
+
+.name-son {
+  font-family: 'Poppins bold';
+  font-size: 12px;
+  color: #9C9C9C;
+}
+
+
+
+
+.swiper-pagination-bullet {
+  opacity: 0.5;
+  
+}
+
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #fff;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+.swiper-pagination {
+  
+  position: relative;
+  margin-top: 30px !important; 
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}

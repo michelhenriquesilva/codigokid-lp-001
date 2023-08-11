@@ -4,7 +4,16 @@
   width: 526px;
   height: 351px;
   right: 200%;
-  
- 
+}
 
+
+@media screen and (max-width: 768px) {
+  .video {
+   
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin-left: 23.2em;
+  }
+  
 }

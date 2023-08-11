@@ -186,3 +186,91 @@
 .card p {
   font-family: 'Poppins bold';
 }
+
+@media (max-width: 768px) {
+  .sec-skills {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+  }
+
+
+.circle1 {
+  margin-top: -13%;
+  margin-left: -5%;
+}
+
+.circle2 {
+  margin-top: -15%;
+  margin-left: 17%;
+}
+
+.circle3 {
+  width: 100px;
+  height: 100px;
+  margin-top: -14%;
+  margin-left: 38%;
+}
+
+.circle4 {
+  width: 100px;
+  height: 100px;
+  margin-top: -18%;
+  margin-left: 58%;
+}
+.circle5 {
+  width: 100px;
+  height: 100px;
+  margin-top: -20%;
+  margin-left: 78%;
+}
+.circle6 {
+  display: none;
+}
+.circle7 {
+  display: none;
+}
+.circle8 {
+  display: none;
+}
+.circle9 {
+  display: none;
+}
+.circle10 {
+  display: none;
+}
+.circle11 {
+  display: none;
+}
+.circle12 {
+  display: none;
+}
+.circle13 {
+  display: none;
+}
+
+.circle14 {
+  display: none;
+}
+
+.circle-title {
+  
+  width: 90px;
+  height: 90px;
+  margin-top: 1.5em;
+ 
+}
+
+
+
+.cardscontainer {
+  flex-wrap: wrap;
+ 
+}
+
+.card {
+  width: 160px;
+  margin: 10px;
+}
+
+}

@@ -1,12 +1,17 @@
 .footer {
   background-color: #000;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   display: flex;
-  justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  justify-content: center;
   align-items: center;
+  flex-direction: column ;
+}
+
+.roww {
+  display: flex;
+  gap: 20em;
+  flex-direction: row;
   
 }
 
@@ -60,9 +65,70 @@
   flex-direction: column;
   gap: 2em;
   
+  
 }
 .collum-right a {
   cursor: pointer;
   font-size: 14px;
   font-family: 'Poppins';
+  
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .collum-left img {
+    padding-right: 4em;
+  }
+
+  .collum-left p {
+   display: none;
+  }
+
+  .roww {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: baseline;
+  }
+
+  .collum-mid {
+    display: flex;
+    padding-right: 7em;
+    
+    
+  }
+
+  .title-collum-right {
+   padding-top: 2em;
+  }
+
+  
+
+  .copy {
+    max-width: 320px;
+    display: flex;
+    
+  }
+
+ 
+
+  
+ 
+ 
 }

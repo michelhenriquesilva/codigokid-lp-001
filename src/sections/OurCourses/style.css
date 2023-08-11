@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .title-courses {
@@ -14,6 +15,14 @@
   font-size: 36px;
   font-family: "Poppins bold";
   padding-bottom: 50px;
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  gap: 50px;
+  flex-wrap: wrap;
 }
 
 .cards-courses1,
@@ -79,6 +88,36 @@
   bottom: -200px;
   z-index: 99;
 }
+
+
+@media screen and (max-width: 768px) {
+  .courses {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+
+  .courses-container {
+    flex-direction: row;   
+   
+  }
+
+
+
+  .fundo-azul {
+    width: 100%;
+    bottom: -102px;
+    z-index: 99;
+  }
+
+ 
+}
+
 
 
 

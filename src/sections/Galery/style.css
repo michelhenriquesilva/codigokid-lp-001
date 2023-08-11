@@ -1,6 +1,6 @@
 .custom-shape-divider-bottom-1690302680 {
   position: absolute;
-  bottom: -28px;
+  bottom: -48px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -83,7 +83,7 @@
 }
 
 .box-right p {
- 
+  max-width: 550px;
   font-size: 14px;
   font-family: 'Poppins';
   padding-left: 20px;
@@ -94,7 +94,7 @@
   z-index: 99;
   display: flex;
   padding-top: 20px;
-  margin-left: -37%;
+ 
   flex-direction: column;
   align-items: center;
   gap: 20px;
@@ -104,11 +104,13 @@
 .row {
   display: flex;
   gap: 10px;
+  align-items: center;
   
 }
 .row a {
-  font-family: 'Poppins bold';
-  font-size: 12px;  
+  font-family: 'Poppins';
+  font-size: 14px;  
+  padding-right: 10px;
   
 }
 .circle-pequeno {
@@ -123,7 +125,7 @@
 .button-matricula {
   font-family: 'Poppins bold';
   font-size: 16px;
-  padding: 17px 30px;
+  padding: 10px 35px;
   background-color: #ED6325;
   color: #fff;
   cursor: pointer;
@@ -131,8 +133,93 @@
   align-items: center;
   position: absolute;
   border-radius: 12px;
-  bottom: -58%;
+  bottom: -70%;
   
 }
 
+@media (max-width: 768px) {
+  .circle-orange,
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4
+  {
+    display: none;
+  }
+
+  .section2 {
+    padding-top: 600px;
+    padding-bottom: 300px;
+    justify-content: center;
+  }
+
+
+  .box-right {
+    display: flex;
+    
+    margin-top: -30em;
+  }
+
+  .titulo-sec2 {
+    font-size: 28px;
+  }
+ 
+  .box-right p {
+    font-size: 12px;
+    padding-top: 10px;
+    max-width: 300px;
+  }
+
+  .circles-container {
+    gap: 10px;
+    flex-direction: column;
+   
+  }
+
+  .row {
+    justify-content: space-between;
+    
+  }
+
+  .circle-pequeno {
+    width: 15px;
+    height: 15px;
+  }
+  .button-matricula {
+    padding: 10px 70px;
+    bottom: -70%;
+    
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .circle-orange,
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4 {
+    display: none;
+  }
+
+
+
+  .titulo-sec2 {
+    font-size: 28px;
+  }
+
+  .box-right p {
+    
+    max-height: 100px;
+  }
+
+  .circles-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .circle-pequeno {
+    width: 15px;
+    height: 15px;
+  }
+}
 

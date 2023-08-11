@@ -11,32 +11,37 @@
   background-color: #fff;
   padding-top: 200px;
   padding-bottom: 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 .row-left-registration {
   display: flex;
-  margin-left: 25%;
+ 
 }
 
 .circle-kids {
   position: relative;
   display: flex;
-  bottom: 9%;
+  left: 3em;
+ 
 }
 
 .imagem-kids {
   position: relative;
   display: flex;
-  right: 70%;
-  padding-left: 15.5%;
+  right: 19em;
+  top: 1.5em;
+  
 }
 
 .row-right-registration {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  right: 10%;
+  right: 10em;
+  
+  
 }
 
 .subtitle {
@@ -54,18 +59,96 @@
   font-family: 'Poppins';
   color: #737373;
   font-size: 14px;
+  max-width: 400px;
 }
 
 .button-matt {
   font-family: "Poppins bold";
   font-size: 16px;
-  padding: 17px 30px;
+  width: 250px;
+  height: 40px;
   background-color: #ed6325;
   color: #fff;
   cursor: pointer;
   display: flex;
   align-items: center;
-  position: absolute;
+ justify-content: center;
   border-radius: 12px;
-  margin-top: 37%;
+  margin-top: 2em;
+  gap: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .fundo-registration {
+    width: 100%;
+    height: 40px;
+    margin-top: -34px;
+  } 
+
+  .registration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+  
+  .row-left-registration {
+    display: flex;
+    align-items: center;
+    
+    margin-left: 14em;
+    margin-bottom: 2em;
+  }
+  
+  .circle-kids {
+    width: 200px;
+    padding-left: 2em;
+    
+  }
+  
+  .imagem-kids {
+    width: 200px;
+    padding-left: 8.5em;
+    padding-bottom: 2em;
+    
+  }
+
+  .row-right-registration {
+    align-items: center;
+    padding-left: 20em;
+    padding-right: 1em;
+   
+  
+  }
+  
+  .subtitle {
+    font-size: 14px;
+    
+  }
+  
+  .title {
+   font-size: 24px;
+   text-align: center;
+   
+  }
+  
+  .row-right-registration p {
+    max-width: 300px;
+    text-align: center;
+    
+  }
+
+  .button-matt {
+    width: 300px;
+    gap: 10px;
+
+  }
+
+
+
+ 
+
+ 
 }

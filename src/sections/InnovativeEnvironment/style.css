@@ -85,19 +85,21 @@
 }
 
 .lado-right {
-  padding-left: 50px;
+  padding-left: 80px;
+  padding-top: 18em;
 }
 
 .lado-right p {
   font-size: 14px;
   font-family: "Poppins";
   padding-bottom: 30px;
+  max-width: 420px;
 }
 
 .button-mat {
   font-family: "Poppins bold";
   font-size: 16px;
-  padding: 17px 30px;
+  padding: 12px 35px;
   background-color: #ed6325;
   color: #fff;
   cursor: pointer;
@@ -121,7 +123,7 @@
 @media screen and (max-width: 768px) {
   .innovative-environment {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 500px;
     flex-direction: column;
   }
 
@@ -138,115 +140,48 @@
     font-size: 28px;
   }
 
-  .images-container {
-    flex-direction: column;
+   .aabb-container{
+    flex-direction: row;
     align-items: center;
+    overflow-x: scroll;
   }
 
-  .images {
-    width: 80%;
-    max-width: 300px;
-    margin: 10px;
+  .lado-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 37em;
+    left: -2em;
+    
+    
+  }
+  
+  .mine-title {
+    color: #ff7e00;
+    font-size: 14px;
+    font-family: "Poppins";
+    padding-bottom: 20px;
+  }
+  
+  .title-video {
+    color: #000;
+    font-family: "Poppins bold";
+    font-size: 24px;
+  }
+  
+
+  
+  .lado-right p {
+    font-size: 14px;
+    font-family: "Poppins";
+    padding-bottom: 30px;
+    max-width: 320px;
   }
 
-  .cards-environment {
-    margin-top: 10px;
-    justify-content: center;
-  }
-
-  .cards {
-    width: 80%;
-    max-width: 292px;
-    margin: 20px;
-    text-align: center;
-  }
-
-  .title-cards {
-    font-size: 18px;
-  }
-}
-
-/* For screens between 769px and 1200px (notebooks) */
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  .innovative-environment {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-
-  .vetor {
-    margin-top: -100px;
+  .fundo2 {
+    
     width: 100%;
-    height: auto;
+    height: 80px;
+    margin-top: -3%;
   }
-
-  .title-environment {
-    font-size: 28px;
-  }
-
-  .images-container {
-    justify-content: center;
-  }
-
-  .images {
-    width: 80%;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-
-  .cards-environment {
-    margin-top: -5%;
-  }
-
-  .cards {
-    width: 80%;
-    max-width: 100%;
-    margin: 20px;
-    text-align: center;
-  }
-
-  .title-cards {
-    font-size: 18px;
-  }
-}
-
-/* For screens above 1200px (larger screens) */
-@media screen and (min-width: 1201px) {
-  .innovative-environment {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-  .vetor {
-    margin-top: -150px;
-    width: 100%;
-    height: 140px;
-  }
-
-  .title-environment {
-    font-size: 36px;
-  }
-
-  .images-container {
-    justify-content: space-around;
-  }
-
-  .images {
-    width: 80%;
-    max-width: 500px;
-    margin: 20px;
-  }
-
-  .cards-environment {
-    margin-top: -11%;
-  }
-
-  .cards {
-    width: 292px;
-    margin: 42px;
-    text-align: center;
-  }
-
-  .title-cards {
-    font-size: 18px;
-  }
+  
 }

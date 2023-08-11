@@ -9,10 +9,12 @@ import OurCourses from './sections/OurCourses';
 import Oponions from './sections/Opinions';
 import Registration from './sections/Registration';
 import Footer from './sections/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
+    <Navbar />
     <Home />
     <Galery />
     <Skills />

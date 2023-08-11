@@ -37,3 +37,13 @@ body {
   border-radius: 5px; 
 }
 
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+  }
+  
+
+}

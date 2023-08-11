@@ -15,6 +15,7 @@ export default function InnovativeEnvironment() {
         <img className="vetor" src={Vetor} alt="" />
         <a className="title-environment">Ambiente inovador</a>
         <div className="container-environment">
+          <div className="aabb-container">
           <div className="images-container">
             <img className="images" src={Image1} alt="" />
             <img className="images" src={Image1} alt="" />
@@ -82,6 +83,9 @@ export default function InnovativeEnvironment() {
               </p>
             </motion.div>
           </div>
+          </div>
+
+
           <div className="lado-left">
             <Video />
             <div className="lado-right">
@@ -124,9 +128,7 @@ export default function InnovativeEnvironment() {
                     transition: { duration: 1.5 },
                   },
                 }}>
-                A Código Kid está alinhada com os 05 pilares da BNCC, que
-                <br />
-                promove a educação nas escolas por meio de XYZ
+                A Código Kid está alinhada com os 05 pilares da BNCC, que promove a educação nas escolas por meio de XYZ
               </motion.p>
               <ButtonMatricula />
             </div>

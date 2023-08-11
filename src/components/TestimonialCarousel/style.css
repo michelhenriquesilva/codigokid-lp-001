@@ -112,3 +112,89 @@
 .swiper-button-next {
   right: 10px;
 }
+
+
+@media screen and (max-width: 768px) {
+  .copySection__swiper {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .swiper-container {
+    width: 100%; 
+  }
+
+  .swiper-slide {
+    width: auto;
+  }
+
+  .swiper__content {
+    background-color: #f0f0f0;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    position: relative;
+    padding-bottom: 15px;
+    height: 200px;
+  }
+  .swiper_box_description {
+    margin-top: 10px;
+   
+  }
+  .cliente__imagem {
+    background-color: #d9d9d9;
+    width: 47px; 
+    height: 47px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .container-row-card {
+    display: flex;
+    align-items: center;
+    padding-bottom: 5em;
+    
+  }
+  
+  .row1 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+  }
+  
+  .stars {
+    display: flex;
+    width: 100px;
+   
+  }
+  
+  .name-client {
+    font-size: 16px;
+    font-family: 'Poppins bold';
+    color: #000000;
+    margin-right: 10px;
+    white-space: nowrap;
+  }
+  
+  .name-son {
+    font-family: 'Poppins bold';
+    font-size: 12px;
+    color: #9C9C9C;
+  }
+
+  .swiper-pagination {
+  
+    position: relative;
+    margin-top: 30px !important; 
+    margin-left: -12em !important; 
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+ 
+}

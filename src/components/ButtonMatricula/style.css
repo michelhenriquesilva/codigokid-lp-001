@@ -1,7 +1,7 @@
 .buttonn {
   font-family: "Poppins bold";
   font-size: 16px;
-  padding: 17px 30px;
+  padding: 12px 35px;
   background-color: #ed6325;
   color: #fff;
   cursor: pointer;
@@ -9,5 +9,21 @@
   align-items: center;
   width: 200px;
   border-radius: 12px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .buttonn {
+    font-family: "Poppins bold";
+    font-size: 16px;
+    padding: 10px 50px;
+    background-color: #ed6325;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+  
+  }
 
 }

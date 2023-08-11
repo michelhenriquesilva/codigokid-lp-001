@@ -1,8 +1,8 @@
 .separator {
   position: absolute;
   display: flex;
-  height: 66px;
-  top: 132.2%;
+  height: 96px;
+  top: 133%;
 }
 
 .separator::after {
@@ -12,5 +12,15 @@
   left: 0;
   background-color: #ED6325;
   width: 6px; 
+}
+
+
+@media (max-width: 768px) {
+  .separator {
+    height: 130px;
+    top: 115.5%;
+  }
+
+  
 }
 
